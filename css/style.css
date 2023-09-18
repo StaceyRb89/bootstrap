@@ -2,19 +2,21 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-.alert-container{}
 
-.callout-container{
+.alert-container {}
+
+.callout-container {
     height: 100vh;
-    html { 
-        background: url(images/whiskey.jpg) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-      }
+    background: url(../images/whiskey.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.quotes-container{}
+.quotes-container {}
 
-.features-container{}
+.features-container {}
